@@ -35,6 +35,10 @@ def divide(a, b):
 
 # TODO: Students will add multiply, divide, power, sqrt functions
 
+def modfun(a,b):
+	 """return mod of two numbers """
+	print(f"Result:{a%b}")
+	return a%b
 if __name__ == "__main__":
     print("🧮 Calculator Module")
     print(f"2 + 3 = {add(2, 3)}")

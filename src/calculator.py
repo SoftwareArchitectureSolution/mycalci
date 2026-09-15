@@ -6,7 +6,8 @@ Students will extend this with more functions
 def add(a, b):
     """Add two numbers together"""
     return a + b
-
+def Max(a,b):
+	return math.max(a,b)
 def subtract(a, b):
     """Subtract b from a"""
     return a - b
